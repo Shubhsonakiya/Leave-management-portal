@@ -1,0 +1,146 @@
+.modal-body h5 span {
+  opacity: 0.8;
+  margin-left: 0.3rem;
+}
+
+.vertical-center {
+  /* min-height: 100%; Fallback for browsers do NOT support vh unit */
+  height: auto;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.logo {
+  padding: 1rem;
+}
+.loginContainer {
+  font-size: large;
+  width: 40rem;
+  outline: none;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 15%);
+  border-radius: 30px 30px 30px 30px;
+  -webkit-border-radius: 30px 30px 30px 30px;
+  -moz-border-radius: 30px 30px 30px 30px;
+}
+.leaveReqDiv {
+  display: flex;
+  flex-direction: row;
+  /* gap: 0rem 30rem; */
+  justify-content: space-between;
+}
+
+.myRequests {
+  text-align: center;
+  border: 0.1rem black solid;
+  height: fit-content;
+  width: 56rem;
+  padding: 1rem;
+  margin: 2.5rem 2rem 2rem 2rem;
+}
+
+.recievedRequests {
+  text-align: center;
+  width: 56rem;
+  padding: 1rem;
+  margin: 2.5rem 2rem 2rem 2rem;
+  border: 0.1rem black solid;
+  height: fit-content;
+}
+.modal-body {
+  text-align: left;
+}
+
+.leaveForm {
+  padding: 1rem;
+  border-radius: 0.2rem;
+  margin: 5rem auto 2rem auto;
+  width: 90rem;
+  border: 0.1rem black solid;
+}
+
+.leaveForm h1 {
+  text-align: center;
+}
+
+.pwdBox {
+  width: 100%;
+}
+.contents {
+  border: 1px solid black;
+  padding: 1rem;
+}
+.dropdown {
+  margin-bottom: 1rem;
+}
+.dropdown label {
+  font-size: large;
+}
+.dropdown-toggle {
+  width: fit-content;
+  margin-left: 0.1rem;
+  background-color: rgba(231, 229, 229, 0.938);
+}
+.profileIcon {
+  width: 15rem;
+  height: 15rem;
+  padding: 0.6rem;
+  margin: auto;
+}
+.allLeavesContainer {
+  margin: 1rem 10rem 10rem 10rem;
+  padding: 1rem;
+  border: 0.1rem black solid;
+}
+.allLeavesh1 {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+@media only screen and (max-width: 1602px) {
+  .leaveForm {
+    width: 50rem;
+  }
+}
+@media only screen and (max-width: 952px) {
+  .leaveReqDiv {
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 1099px) {
+  .helloNav {
+    display: none;
+  }
+  .chpwd {
+    margin-bottom: 0.5rem;
+  }
+  .profileWrapper {
+    margin: 0.7rem;
+  }
+  .logo {
+    height: 15rem;
+    width: 15rem;
+  }
+  .loginContainer {
+    margin: 1rem;
+  }
+  .leaveForm {
+    width: 30rem;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .leaveForm {
+    width: 21rem;
+  }
+}
+@media only screen and (min-width: 1960px) {
+  .myRequests {
+    width: 150rem;
+  }
+  .recievedRequests {
+    width: 150rem;
+  }
+}
